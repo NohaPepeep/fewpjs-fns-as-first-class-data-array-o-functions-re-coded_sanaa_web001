@@ -34,4 +34,4 @@ var routine=[wakeDog,leashDog,
  function exerciseDog(dogName,dogBreed){
    routine;
  }
-routine.foreach(exerciseDog());
+routine.foreach(exerciseDog("lol","dd"));
