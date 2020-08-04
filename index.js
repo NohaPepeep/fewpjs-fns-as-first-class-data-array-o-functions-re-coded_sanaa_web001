@@ -32,5 +32,7 @@ var routine=[wakeDog,leashDog,
  walkToPark,throwFrisbee,
  walkHome,unleashDog];
  function exerciseDog(dogName,dogBreed){
-   
+   for (const element of routine) {
+  console.log(element);
+}
  }
